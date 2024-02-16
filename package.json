@@ -6,7 +6,7 @@
   "description": "Accessibility playground.",
   "author": "Lee Crosby",
   "license": "UNLICENSED",
-  "homepage": "https://its-lee.github.io/a11y#readme",
+  "homepage": "https://github.com/its-lee/a11y",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
