@@ -1,6 +1,8 @@
 <template>
   <a11y-example>
-    <div class="background-color-white color-black p-2 br-5 gap-3 overflow-auto">
+    <div
+      class="background-color-white color-black p-2 br-5 gap-3 overflow-auto mx-auto max-width-max-content"
+    >
       <div
         ref="gridRef"
         class="a11y-example-drag-and-drop-grid mx-auto position-relative"

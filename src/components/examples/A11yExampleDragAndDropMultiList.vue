@@ -1,7 +1,8 @@
 <template>
   <a11y-example>
     <div
-      class="background-color-white color-black p-2 br-5 flex flex-direction-row gap-3 flex-wrap-wrap justify-content-center"
+      class="background-color-white color-black p-2 br-5 flex flex-direction-row gap-3 flex-wrap-wrap justify-content-center mx-auto"
+      style="max-width: 500px"
     >
       <section
         v-for="column in COLUMNS"
@@ -44,7 +45,7 @@
   import { modularClamp, range } from '../../helpers/utility';
   import A11yExample from '../utility/A11yExample.vue';
 
-  const COLUMNS = ['To Do', 'In Progress', 'In Review', 'Done'] as const;
+  const COLUMNS = ['To Do', 'In Review', 'Done'] as const;
   type Column = (typeof COLUMNS)[number];
   type Item = { text: string; column: Column };
 

@@ -1,6 +1,6 @@
 <template>
   <a11y-example>
-    <div class="background-color-white br-5">
+    <div class="background-color-white br-5 mx-auto" style="max-width: 400px">
       <div
         v-for="item in items"
         ref="itemRefs"

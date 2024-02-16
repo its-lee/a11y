@@ -2,7 +2,6 @@
   <section
     class="a11y-example background-color-grey-2 p-2 mt-2 mb-4 br-5 flex flex-direction-column gap-1"
   >
-    <h4 class="text-transform-uppercase text-small-body-med m-0">Example</h4>
     <div class="flex flex-direction-column gap-1">
       <div>
         <slot name="controls" />
