@@ -7,7 +7,7 @@
         v-for="name in NAVIGABLE_ROUTES"
         :key="name"
         :to="{ name }"
-        class="br-10 py-1 px-2 background-color-white color-grey-1 text-decoration-none flex-shrink-0"
+        class="br-10 py-1 px-2 background-color-white background-color-hover-white-o-75 color-grey-1 text-decoration-none flex-shrink-0"
         background-colour="white"
         colour="grey-1"
       >
