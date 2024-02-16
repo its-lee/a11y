@@ -1,0 +1,6 @@
+{
+  "version": "0.2",
+  "language": "en-gb",
+  "files": ["src/**/*.{js,ts,vue}"],
+  "words": ["webfontloader", "Poppins"]
+}

@@ -1,0 +1,53 @@
+@import './reset.scss';
+@import './variables.scss';
+@import './mixins.scss';
+@import './typography.scss';
+@import './generic.scss';
+
+* {
+  font-family: 'Poppins';
+  box-sizing: border-box;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+[tabindex='0']:focus {
+  outline: 4px solid map-get($colours, 'blue-2');
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+
+  background-color: map-get($colours, 'grey-1');
+  color: map-get($colours, 'white');
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: map-get($spacings, 2) 0 map-get($spacings, 4);
+}
+
+code {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: map-get($colours, 'grey-2');
+}
+
+.ordered-list-bullet {
+  margin: map-get($spacings, 2) 0 map-get($spacings, 4) map-get($spacings, 6);
+
+  li {
+    list-style: circle;
+  }
+}
+
+.drag-over {
+  border: 3px dotted map-get($colours, 'grey-2');
+}

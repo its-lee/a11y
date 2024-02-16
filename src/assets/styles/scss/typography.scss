@@ -1,0 +1,108 @@
+.text {
+  &-small-body {
+    &-reg {
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    &-med {
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    &-bold {
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+
+  &-sub-body {
+    &-light {
+      font-size: 13px;
+      font-weight: 300;
+    }
+
+    &-reg {
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    &-med {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    &-bold {
+      font-size: 13px;
+      font-weight: 700;
+    }
+  }
+
+  &-body {
+    &-light {
+      font-size: 14px;
+      font-weight: 300;
+    }
+
+    &-reg {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &-med {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    &-bold {
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+
+  &-sub {
+    &-h23 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &-h2 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    &-h1 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+
+  &-h3 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  &-h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  &-h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  &-transform {
+    &-uppercase {
+      text-transform: uppercase;
+    }
+  }
+
+  &-decoration {
+    @each $text-decoration in (none, underline) {
+      &-#{$text-decoration} {
+        text-decoration: $text-decoration;
+      }
+    }
+  }
+}
