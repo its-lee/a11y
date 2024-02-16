@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Accessibility playground.",
   "author": "Lee Crosby",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "homepage": "https://github.com/its-lee/a11y",
   "scripts": {
     "dev": "vite",
